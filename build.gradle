@@ -3,7 +3,7 @@ buildscript {
     ext {
         useLocalSources = findProperty("we_are_awesome_developers") ?: false
 
-        gradleVersion = '2.2.0-beta2'
+        gradleVersion = '2.2.2'
 
         targetSdk = 24
         buildTools = '24.0.1'
